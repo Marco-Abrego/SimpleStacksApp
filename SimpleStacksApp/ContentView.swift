@@ -14,6 +14,14 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Image(systemName: "arrow.up")
+                .imageScale(.large)
+                .foregroundColor(.red)
+                .padding()
+            Text("Red Arrow Above")
+                .imageScale(.large)
+                .background(Color.green)
+                .foregroundColor(Color.white)
         }
         .padding()
     }
